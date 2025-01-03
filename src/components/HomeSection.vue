@@ -160,7 +160,7 @@ export default {
 
       try {
         // Kirim file ke API
-        const response = await axios.post("http://localhost:8000/upload-csv/", formData, {
+        const response = await axios.post("https://backend.socialsift.biz.id/upload-csv/", formData, {
           headers: {
             "Content-Type": "multipart/form-data",
           },
