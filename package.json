@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "http-serve dist",
+    "start": "http-server dist",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
